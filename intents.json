@@ -1,0 +1,375 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Hai"],
+         "responses": ["Hello, thanks for visiting..How can I help you?", "Good to see you again", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye","Quit"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+
+        {"tag": "Language1",
+         "patterns": ["Telugu"],
+         "responses": ["You can now speak in Telugu", "Your Language has been changed"]
+     	},
+     	{"tag": "Language2",
+         "patterns": ["English"],
+         "responses": ["You can now speak in English", "Your Language has been changed"]
+     	},
+	{"tag":"SSY Description",
+	 "patterns":["What is SYY?","What is Sukanya Samriddhi Yojana ?","Sukanya Samriddhi Yojana","SSY","what SSY","ssy"],
+	 "responses":["Sukanya Samriddhi(SSY) Account is a Government of India backed saving scheme targeted at the parents of girl children. The scheme encourages parents to build a fund for the future education and marriage expenses for their female child."]
+	},
+
+	{"tag":"SSY Eligibility",
+	 "patterns":["Who are eligible for SSY?","What is the Eligibility Criteria for SSY?","What is the Eligibility for SSY?","What is the Eligibility for Sukanya Samriddhi Yojana?","Eligibility for Sukanya Samriddhi Yojana","Eligibility for SSY","SSY Eligibility","Eligibility SYY","SSY Eligible","Eligible SSY","Eligibility SSY","SSY Eligibility"],
+	 	 "responses":["1.The girl must be an Indian resident.\n2.Only parents or legal guardians of the girl child can open a Sukanya Samriddhi account in the name of the girl.\n3.The girl child should be less than 10 years at the time of account opening.The account can be operational till the girl reaches the age of 21 years.\n4.The initial investment can start from Rs. 250 and a maximum of Rs. 1,50,000 annually with further deposits in the multiples of Rs. 100.\n5.A single girl child cannot have multiple Sukanya Samridhhi accounts.\n6.Only two Sukanya Samriddhi Yojana accounts are allowed per family i.e., one for each girl child."]
+	},
+
+	{"tag":"SYY Applying process",
+	 "patterns":["How to apply for SSY?","what is the process for applying SSY?","Process of Applying SSY","SSY Applying Process","Sukanya Samriddhi Yojana Applying Process","What is the Applying Process for Sukanya Samriddhi Yojana?","How to Apply for Sukanya Samriddhi Yojana?","Apply SSY","Apply Sukanya Samriddhi Yojana","SSY apply","Sukanya Sukanya yojana Apply"],
+	 "responses":["This scheme can be easily opened in post offices and designated private or public banks in the form of a savings account in the name of the baby girl.Like other government savings schemes, the interest rates for Sukanya Samriddhi Yojana are declared quarterly."]
+	},
+	{"tag":"SYY Required Documents",
+	 "patterns":["Required Documents for SSY","What are the Required Documents for SSY?","Required Documents for Sukanya Samriddhi Yojana","What are the Required Documents for Sukanya Samriddhi Yojana?","SSY Documents","Documents SSY","Documents Sukanya Samriddhi Yojana","Sukanya Samriddhi Yojana Documents"],
+	 "responses":["1.Duly filled scheme opening document which covers the basic personal details of the account holder and the girl child for whom the account is being opened.\n2.Birth certificate of the girl child.\n3.Depositor’s identification documents as well as a valid address proof.\n4.Medical certificate in the case of the birth of multiple children under a single birth order.\n5.Additional documents requested by the concerned authority."]
+	},
+
+	{"tag":"SSY FAQ1",
+	 "patterns":["Who is eligible for a Sukanya Samriddhi Yojana Account?"],
+	 "responses":["Guardians can open an account on behalf of their girl child anytime between when she is born and before she reaches the age of 10."]
+	},
+	{"tag":"SSY FAQ2",
+	 "patterns":["How many accounts can be created under SSY?","Accounts created for SSY"] ,
+	 "responses":["Only one SSY account is permitted for a girl child. The number of accounts guardians can create is restricted to two for each of their girl children. Exceptions are only in case of twins or triplets"]
+	},
+	{"tag":"SSY FAQ3",
+	 "patterns":["What is the minimum amount required to open an SSY account?"],
+	 "responses":["Individuals can open an account with as low as Rs.250. They also have to invest a minimum of Rs.250 to keep the account active"]
+	},
+	
+	{"tag":"SSY FAQ5",
+	 "patterns":["What is the maximum amount that I can deposit in a year?"],
+	 "responses":["The maximum amount that you can deposit per year in a Sukanya Samriddhi Yojana account is Rs.1.5 Lakh."]
+	},
+
+	{"tag":"BSY Description",
+	"patterns":["BSY Decsription","What is SYY?","What is Balika Samridhi Yojana?","BSY","Balika Samridhi Yojana","Balika Samridhi Yojana Decsription","About Balika Samridhi Yojana","About BSY"],
+	"responses":["The Indian Government introduced Balika Samridhi Yojana in 1997 under the policies for Women and Child Development to facilitate the girl child. It is widely known as a key initiative to support the birth and education of the girl child.\nThe respective amount of financial assistance including the amount of post-birth grant and educational scholarship under the Balika Samridhi Yojana is credited into the account of the beneficiary."]
+	},
+
+	{"tag":"Objective of BSY",
+	"patterns":["Objectives of the BSY Scheme","What is the Objective of BSY?","What is the moto of BSY?","BSY Objective","Objective of BSY","Objective BSY","BSY moto"],
+	"responses":["1.Bring positive change in the attitude of the family, society or community towards the mother and the girl child.\n2.Protecting and Improving the enrollment as well as retention of the girls in school.\n3.Rightly raising the girl child till she reaches the legal age for marriage.\n4.Helping the girls and motivating them to take up income generating activities for her own welfare."]
+	},
+
+	{"tag":"Eligibility",
+	"patterns":["Who are eligible for BSY?","What is the Eligibility Criterai for BSY?","BSY Eligibility","Eligibility BSY","Balika Samridhi Yojana Eligibility","Eligibility Balika Samridhi Yojana","BSY Eligible"],
+	"responses":["1.BSY covers both the rural and urban areas in all the districts of India.\n2.For the residents of rural areas, families identified to be below the poverty line according to the criteria specified under Swarnajayanti Gram Swarozgar Yojana, will be taken as the target group.\n3.For the residents of urban areas, the families living in urban slums irrespective of their recognition, will be covered under Balika Samridhi Yojana. Also, families working as rag-pickers, vegetables & fruit sellers, payment vendors etc. are covered under the scheme. Moreover, according to the instructions of the Government of India, there are surveys conducted to check for the families BPL and lists are prepared under the Targeted Public Distribution System (TPDS) which can be followed to keep a record of the target groups.\n4.The Balika Samridhi Yojana benefits the girl children born on or after 15th August 1997, who belong to families under the poverty line.\n5.All the benefits of this scheme are provided to only two girl children from every family irrespective of the number of children in the family."]
+	},
+
+	{"tag":"Documents Required For BSY",
+	"patterns":["Required Documents for BSY","What are the Required Documents for BSY?","Documents for BSY","BSY Documents","Balika Samridhi Yojana Documents","Documents for Balika Samridhi Yojana"],
+	"responses":["1.Birth Certificate of the Girl Child- issued by the hospital where the girl child was born or by the Government.\n2.Address Proof of the parents or legal guardian– Passport, Driving License, Electricity or Telephone Bill, Voter ID Card, Ration Card or any other address proof issued by Govt. of India.\n3.Parents’ or Legal Guardian’s Identity Proof- Passport, PAN Card, Matriculation Certificate, Voter ID Card or any other certificate issued by Govt. of India which validates the identity of the girl child"]
+	},
+
+	{"tag":"Application Process",
+	"patterns":["How to apply for BSY?","what is the process of applying to BSY?","Apply BSY","BSY Apply","Balika Samridhi Yojana Apply","Applying Process for BSY"],
+	"responses":["In the rural areas, this scheme is executed by Integrated Child Development Services (ICDS) and in the urban areas, the same is implemented through functionaries of Health Department.\n1.The Application forms for the same scheme are available with Anganwadi Workers (rural areas) and with the Health Functionaries (rural areas). Also, the same form can be obtained online but it is to be noted that there are different forms for rural and urban beneficiaries.\n2.The form must be duly filled with all the required details.\n3.Submit the form from the same platform from which it was obtained"]
+	},
+
+	
+	{"tag":"CBSE Udaan Description",
+	"patterns":["CBSE Udaan","CBSE Udaan Decsription","What is CBSE Udaan?","What is CBSE Udaan ?","Government Schemes for Girl Child"],
+	"responses":["CBSE Udaan is a project started by CBSE (Central Board of Secondary Education) under the guidance of the Ministry of Human Resource Development, Government of India. The main objective of this program is to increase the enrolment rate of girls in the engineering colleges of the country.\nCBSE Udaan is designed to provide deserving girl students of class 11 with free online/offline study resources which are easy to understand so that they could prepare for engineering entrance exams and get admitted into the premier engineering colleges of India."]
+	},
+
+	{"tag":"Last Date to Apply",
+	"patterns":["What is the last date to apply for CBSE Udaan?"],
+	"responses":["Start of application for Udaan by CBSE-July/August \n Last Date to apply - First Week of August"]
+	},
+
+	{"tag":"CBSE Udaan Applying Process",
+	"patterns":["How to apply for CBSE Udaan?","what is the process of applying to CBSE Udaan?"],
+	"responses":["Step1: The candidates can visit the official website.\nStep 2: The candidates must read all the information provided on the website carefully and then only, they should register themselves.\nStep 3: To register, the applicants need to complete a four-step process where they have to fill the application form with all the necessary information.\nStep 4: On filling the form, a registration number is generated which is displayed on the computer screen and an email is also sent on the registered email ID.\nStep 5: Now, applicants must upload their photograph where they need to enter the registration number and date of birth.\nStep 6: Finally, the applicants have to take a printout of the application form and download the declaration form."]
+	},
+
+	{"tag":"Eligibility For CBSE Udaan",
+	"patterns":["who are Eligible for CBSE Udan?", "What is the eligibility criteria for CBSE Udaan?","Eligibility CBSE Udaan","CBSE Eligibility","CBSE Udaan Eligibility"],
+	"responses":["The main eligibility condition to be met is that a girl student should be studying in class 11 Science stream. There are various other requirements that a candidate needs to fulfill to avail the benefits of CBSE Udaan. Given below is the list of eligibility criteria for Udaan.\n1.Only the residents of India can apply for the Udaan program by CBSE.\n2.The girl candidates must be studying in class 11 from any Kendriya Vidyalaya (KV)/ Navodaya/ Government schools recognised by any Board or CBSE affiliated private of Physics, Chemistry and Mathematics (PCM).\n3.The applicants must have secured an average of at least 70% marks in class 10. They must have scored a minimum of 80% marks in Science and Mathematics. For students who are enrolled in those schools which follow CGPA, a minimum CGPA score of 8 and a GPA of 9 in Science and Mathematics is needed.\n4.The candidates belonging to SC, ST, OBC and PWD category get a reservation of 15%, 7.5%, 27% and 3% seats, respectively.\n5.The candidates must be pursuing Science stream with subjects.\n6.Also, the annual family income of the applicant must not be more than INR 6 Lakh."]
+	},
+
+	{"tag":"CBSE Udaan Selection Process",
+	"patterns":["What is the Selection Process for CBSE Udaan?","Selection Process CBSE Udaan","CBSE Udaan Selection Process","Selection CBSE Udaan","CBSE Udaan Selection"],
+	"responses":["The girl students applying for Udaan are selected on the basis of merit. The candidates are considered against the city chosen by them for the weekly virtual contact classes."]
+	},
+
+	{"tag":"CBSE Udaan – Contact Details",
+	"patterns":["Contact Details for CBSE Udaan","CBSE Contact Details","CBSE Contact","Contact CBSE Udaan","Contact CBSE"],
+	"responses":["Office address: Central Board of Secondary Education :Shiksha Sadan, 17 Rouse Avenue, New Delhi 110 002.\nPhone No. : 011 23214737 \n Email: udaan.cbse2017@gmail.com"]
+	},
+	{"tag":"PMMVY Description",
+ 	"patterns":["What is PMMVY?","What is pradhan mantri matru vandana yojana?","Government Schemes for Pregnant Woman","PMMVY","pradhan mantri matru vandana yojana"],
+	"responses":["PMMVY provides partial compensation for the wage loss in terms of cash incentive so that the woman can take adequate rest before and after delivery of the first living child."]
+	},
+	{"tag":"PMMVY Eligibility",
+	"patterns":["Who are eligible for PMMVY?","Eligibility Criteria for PMVYY","What is the Eligibility for PMMVY","PMVYY Eligibility","Eligibility PMMVY","pradhan mantri matru vandana yojana Eligibility","Eligibility pradhan mantri matru vandana yojana"],
+	"responses":["All eligible Pregnant Women and Lactating Mothers who have their pregnancy on or after 01.01.2017 for first child in family, excluding PW,LM who are in regular employment with the Central Government or the State Governments or PSUs or those who are in receipt of similar benefits under any law for the time being in force."]
+	},
+	{"tag":"PMMVY Benefits",
+	"patterns":["What are the benefits of PMMVY?","What does PMMVY provide?","use of PMMVY","incentives under PMMVY","PMMVY incentives","incentives PMMVY","pradhan mantri matru vandana yojana Benefits","Benefits pradhan mantri matru vandana yojana","Benefits of pradhan mantri matru vandana yojana","benefits PMMVY","PMMVY Benefits",""],
+	"responses":["Cash incentive of Rs 5000 in three instalments i.e. first instalment of Rs 1000 on early registration of pregnancy, second instalment of Rs 2000 after six months of pregnancy on receiving at least one ante natal check up (ANC) and third instalment of Rs 2000 after child birth is registered and the child has received the first cycle of BCG, OPV, DPT and Hepatitis - B"]
+	},
+	{"tag":"PMMVY Application offline",
+	"patterns":["Where should we apply for PMMVY?","How to apply for PMMVY?","Apply PMMVY","PMMVY applying","Applying PMMVY","apply pradhan mantri matru vandana yojana "],
+	"responses":["The eligible women are required to register under the scheme at the Anganwadi Centre ( AWC ) / approved Health facility depending upon the implementing department for that particular State.The registration must be done within 150 days of LMP."]
+	} ,
+{"tag":"PMMVY Application online",
+"patterns":["How to apply for PMMVY online?","Apply Online PMMVY","Online application PMMVY","PMMVY Online Application","pradhan mantri matru vandana yojana online Application","Online Application pradhan mantri matru vandana yojana"],
+"responses":["Visit https://pmmvy-cas.nic.in and log in into the PMMVY software using the scheme facilitator’s (AWC/approved health facility) login details.Click on ‘New Beneficiary’ tab for registering under the scheme by filling in the details as per the Beneficiary Registration Form (also called Application Form 1A). For 2nd installment, again log in into the PMMVY CAS software and click on ‘Second Instalment’ tab and fill Form 1B.For 3rd installment click on ‘Third Instalment’ tab and fill Form 1C"]
+}, 
+{"tag":"PMMVY Documents Required",
+"patterns":["Documents Required for PMMVY Registration","Documents Required for PMMVY 1st Installment","Documents Required for PMMVY 2nd Installment","Documents Required for PMMVY 3rd Installment","Documents PMMVY","PMMVY Documents","pradhan mantri matru vandana yojana Documents","Documents pradhan mantri matru vandana yojana","Documents for pradhan mantri matru vandana yojana","pradhan mantri matru vandana yojana decocuments required","Required Documents for pradhan mantri matru vandana yojana","Required Documents for PMMVY"],
+"responses":["1.For registration and claim of first instalment, duly filled Form 1 - A along with copy of MCP Card (Mother and Child Protection Card), Proof of Identity of Beneficiary and her Husband (Aadhaar Card or permitted Alternate ID Proof) and Bank/ Post Office Account details of the beneficiary.\n2.For 2nd instalment, submit duly filled up Form 1 - B after six months of pregnancy, along with the copy of MCP Card showing at least one ANC.\n3.For 3rd instalment, submit duly filled up Form 1 - C along with copy of child birth registration and copy of MCP card showing that the child has received first cycle of immunization or its equivalent/substitute."]
+},
+{"tag":"PMMVY Miscarriage",
+"patterns":["Beneficiary incase of miscarriage","PMMY Miscarriage beneficiary","miscarriage PMMVY "],
+"responses":[" if after receiving the 1st instalment of cash incentive, the beneficiary has a miscarriage, she would only be eligible for receiving 2nd and 3rd instalment for a future pregnancy."]
+},
+{"tag":"PMMVY Infant Mortality",
+"patterns":["Beneficiary incase of Infant mortality","Infant mortality PMMVY","PMVVY Infant mortality"],
+"responses":["In the case of infant mortality, a beneficiary would not be eligible for claiming benefits under the scheme, if she has already received all the instalments of the maternity benefit under PMMVY earlier."]
+},
+{"tag":"PMMY Description",
+ "patterns":["What is PMMY?","What is pradhan mantri mudra yojana?","Government Schemes for Funding Enterprises","PMMY","pradhan mantri mudra yojana","mudra loan"],
+"responses":["The Government of India launched a flagship scheme called Prime Minister Mudra Yojana (PMMY) on 8th April 2015 to extend affordable loans to the non-corporate, non-farm micro and small enterprises to cater to their funding needs through the Commercial Banks, RRBS, Cooperative Banks, NBFC and MFI etc."]
+},
+{"tag":"PMMY Eligibility Criteria",
+ "patterns":["Eligibility for Mudra Loan","Who are eligible for PMMY?","Who are eligible for mudra loan?","PMMVY Eligible","Eligibility PMMVY","pradhan mantri mudra yojana Eligibility","Eligibility pradhan mantri mudra yojana"],
+"responses":["1. All non-corporate non-farm enterprises,2. Primarily engaged in income generation through manufacturing, trading and services,3. Where the requirement of credit is for maximum Rs.10 lakhs or lower,4. Engaged in allied agriculture services since 1st April 2016"]
+},
+{"tag":"PMMY Benefits",
+"patterns":["What are the benefits of PMMY?","What does PMMY provide?","use of PMMY","incentives under PMMY","PMMY benefits"],
+"responses":["The borrowers are not required to provide any collateral or security to avail of Mudra Loan.There are no processing charges for availing of the loan.The loans are provided for the funded and non-funded category, inducing an element of flexibility in the usage of funds.The loans can be in the form of term loans, overdraft facility, letters of credit or bank guarantees, thus catering to a wide array of requirements.The Mudra loan scheme does not prescribe any minimum amount."]
+},
+{"tag":"PMMY Types",
+"patterns":["Types of Mudra Loans","types mudra","mudra types","types in mudra","types in mudra loan","types in MudraLoan"],
+"responses":["Sishu, Kishor, Tarun"]
+},
+
+{"tag":"PMMY Sishu Loan",
+"patterns":["what is Sishu Loan","Sishu","sishu","Sishu Loan","sishu loan","Sishu loan","Loan Sishu","loan Sishu","Loan sishu","loan sishu"],
+"responses":["This loan is meant for entrepreneurs who are looking to start a business or in the process of establishing one. The maximum loan sanctioned under this category is Rs.50000."]
+},
+{"tag":"PMMY Kishor Loan",
+"patterns":["what is Kishor Loan?","what is kishor loan","Kishor Loan","kishor Loan","kishor loan","kishor"],
+"responses":["Under the MUDRA scheme, this category of loan is targeted towards entrepreneurs looking to expand their business through the infusion of fresh funds. Thus, the loan sanctioned under this category is in the range of Rs.50001 to Rs.5lakhs."]
+},
+{"tag":"PMMY Tarun Loan",
+"patterns":["what is Tarun Loan","Tarun loan","Tarun","tarun"],
+"responses":["The third type of loan under PMMY is for entrepreneurs who are well entrenched and have established themselves in the business and yet looking for further growth or diversification. The loan sanctioned under Pradhan Mantri Mudra Yojana for this type of loan is in the range of Rs.500001 to Rs.10 lakhs."]
+},
+{"tag":"PMMY Documents Required",
+"patterns":["Documents Required for PMMY Registration","PMMY documents","Documents PMMY","PMMY Documents","pradhan mantri mudra yojana documents","documents pradhan mantri mudra yojana"],
+"responses":["Self-written Business Plan,Duly Filled Application form,Recent 2 passport-sized photographs,Proof of Identity: Passport, Voter’s ID card, Driving License, Aadhar Card,Age Proof,Address proof,Proof of business address and identity,Last 6 months’ bank statement,Documents in case applicant belongs to SC/ ST/ or any other special category."]
+},
+{"tag":"MudraLoan Interest Rate",
+"patterns":["What are the interest rate for mudra loan","Mudra loan interest rates","interest rates mudra","mudra interest rate","mudra loan interest","mudra interest","interest mudra"],
+"responses":["The interest rate applied on MUDRA loans are based on RBI defined MCLR (Marginal Cost of Lending Rate) with the following break-up.\nUp to Rs.50000:Micro Enterprises: MCLR + SP\nAbove Rs.50000 up to Rs.2 lakhs:Micro Enterprises: (MCLR + SP) + Bank Load,Small Enterprises: (MCLR + SP) + Bank Load,\nAbove Rs.2 lakhs up to Rs.10 lakhs:Micro Enterprises: (MCLR + SP) + Bank Load,Small Enterprises: (MCLR + SP) + Bank Load"]
+},
+{"tag":"Offline Process for Mudra Loan ",
+"patterns":["Offline Application process for mudra loan","How to apply for mudra loan","mudra loan apply","apply MudraLoan"],
+"responses":["Applicants are required to visit their desired and nearest commercial or private sector bank.Submit all required documents.Complete all further bank’s formalities and procedures.Once all the documents are verified, loan shall get approved.After loan is approved, desired amount shall get disbursed to the mentioned bank account within specified working days."]
+},
+{"tag":"Application for Mudra Loan ",
+"patterns":["Download Application for mudra loan","Where do we get the application for mudra loan.","MudraLoan application","Application mudra","MudraLoan Application","mudra loan Application","mudra application"],
+"responses":["https://www.mudra.org.in/Home/PMMYBankersKit"]
+},
+{"tag":"PMMY List of banks",
+"patterns":["List of banks offering Mudra loan","Mudra Loan banks list","MudraLoan banks ","List MudraLoan banks","mudra loan banks"],
+"responses":["Allahabad bank,andhra bank, axis bank, bank of baroda, bank of india,bank of maharashtra,Canara bank, central bank of india, corporation bank, federal bank, HDFC bank, ICICI bank, IDBI bank,Indian bank, Indian overseas bank, karnataka bank,kotak mahindra bank,oriental bank of commerce,Punjab national bank, saraswat bank,state bank of india, syndicate bank,UCO bank, union bank of india,United bank of india"]
+},
+
+{"tag":"PMMY Mudra card",
+"patterns":["What is MUDRA card?","Mudra card","PMMY Mudra card","Pradhan mantri mudra yojana card"],
+"responses":["It is a digital facility introduced for working capital needs under cash credit of MUDRA loan granted Rupay branding by NPCL"]
+},
+
+{"tag":"PMMY Credit plus",
+"patterns":["What is MUDRA Credit Plus?","PMMY Credit plus","pradhan mantri mudra yojana credit plus","Mudra credit plus"],
+"responses":["It aims to build a business eco-system by offering the following:Counselling centres for financial literacy.Imparting product knowledge.Oversee credit absorption capacity.The need for products and services."]
+},
+{"tag":"PMMY repayment",
+"patterns":["What is the normal repayment of MUDRA loans?","Mudra loan repayments","repayment of mudra loans","PMMY repayments","pradhan mantri mudra yojana repayment"],
+"responses":["The normal term of repayment is 12 to 60 months"]
+},
+{"tag":"PMMY processing time",
+"patterns":["What is the processing time of MUDRA loan?","mudra loan processing time","PMMY processing time"],
+"responses":["It is normally processed in 24 hours."]
+},
+{"tag":"PMAY Description",
+ "patterns":["What is PMAY?","What is pradhan mantri awaas yojana?","Government Schemes for Housing"],
+"responses":["The Pradhan Mantri Awas Yojana (PMAY) scheme was launched by the Government of India to boost the affordability of houses against an inflated real estate sector. The scheme aims to achieve its objective of “Housing for All” by 31 March 2022, the 150th birth anniversary year of Mahatma Gandhi, by constructing 20 million houses across the nation."]
+},
+{"tag":"PMAY Eligibility",
+"patterns":["Who are eligible for PMAY?","PMAY Eligibility","Eligibility For Pradhan mantri awas yojana","pradhan mantri awas yojana eligibility","who are eligible for pradhan mantri awas yojana","am i eligible for pradhan mantri awas yojana"],
+"responses":["Economically Weaker Section (EWS) – Families with an annual income up to Rs. 3 Lakh.\nLow Income Group (LIG) – Families with an annual income between Rs. 3 Lakh and Rs. 6 Lakh.\nMiddle Income Group I (MIG I) – Families within an annual income between Rs. 6 Lakh and Rs. 12 Lakh.\nMiddle Income Group II (MIG II) – Families with an annual income between Rs. 6 Lakh and Rs. 12 Lakh.\nWomen belonging to EWS and LIG categories.\nScheduled Caste (SC), Scheduled Tribe (ST), and Other Backward Class (OBC).\nHe/she must not own a house to fulfil the Pradhan Mantri Awas Yojana eligibility.\nThe individual must also not avail the benefits of any other housing scheme by the State or Central Government."]
+},
+	{"tag":"PMAY CLSS",
+	"patterns":["What is credit linked subsidy scheme?","What is CLSS","Credit linked subsidy scheme"],
+	"responses":["The CLSS provides subsidies on home loan interest rates to those eligible for this scheme.Home loans under the CLSS have a maximum tenor of 20 years. NPV or the net present value is evaluated at a discounted rate of 9% of the interest subsidy."]
+	},
+	{"tag":"PMAY CLSS for EWS",
+	"patterns":["CLSS for EWS?","PMAY for EWS","PMAY for economically weaker sections","pradhan mantri awas yojana for economically weaker sections"],
+	"responses":["The CLSS provides subsidies on home loan interest rates to those eligible for this scheme.Maximum Home Loan amount-Up to Rs. 3 Lakh,Interest subsidy-6.50%,Maximum interest subsidy amount-Rs. 2,67,280,Maximum carpet area-30 sq. m."]
+	},
+	{"tag":"PMAY CLSS for LIG",
+	"patterns":["CLSS for LIG?","PMAY for LIG","PMAY for Low Income Group","pradhan mantri awas yojana for Low income group", "CLSS for Low income groups"],
+	"responses":["The CLSS provides subsidies on home loan interest rates to those eligible for this scheme.Maximum Home Loan amount-Rs. 3 - 6 Lakh,Interest subsidy-6.50%,Maximum interest subsidy amount-Rs. 2,67,280,Maximum carpet area-60 sq. m."]
+	},
+	{"tag":"PMAY CLSS for MIG",
+	"patterns":["CLSS for MIG?","PMAY for MIG","PMAY for Middle Income Group","pradhan mantri awas yojana for Middle income group", "CLSS for Middle income groups"],
+	"responses":["The CLSS for MIG 1 provides subsidies on home loan interest rates to those eligible for this scheme.Maximum Home Loan amount-Rs. 6 - 12 Lakh,Interest subsidy-4.00%,Maximum interest subsidy amount-Rs. 2,35,068,Maximum carpet area-160 sq. m.\nThe CLSS for MIG 2 provides subsidies on home loan interest rates to those eligible for this scheme.Maximum Home Loan amount-Rs. 12 - 8 Lakh,Interest subsidy-3.00%,Maximum interest subsidy amount-Rs. 2,30,156,Maximum carpet area-200 sq. m."]
+	},
+	
+	{"tag":"PMAY AHP",
+	"patterns":["What is Affordable Housing in Partnership?","Affordable Housing in Partnership","Affordable Housing Partnership","AHP","PMAY Affordable Housing partnership"],
+	"responses":["Affordable Housing in Partnership (AHP) provides financial assistance to the tune of Rs. 1.5 Lakh on behalf of the Central Government to EWS families for the purchase of houses. State and UTs can partner with their agencies or private sector to develop such housing projects."]
+	},
+	{"tag":"PMAY AHP2",
+	"patterns":["Individual house construction in PMAY?","what is Individual House construction in PMAY?","PMAY Individual House construction","AHP2","PMAY AHP2"],
+	"responses":["This component of PM Awas Yojana targets EWS families who cannot avail the benefits of the previous three components. Such beneficiaries will avail financial assistance from the Central Government of up to Rs. 1.5 Lakh that can be used to fund the construction of a house or enhancing an existing one."]
+	},
+	{"tag":"PMAY Application online",
+	"patterns":["Where should we apply for PMAY?","How to apply for PMAY online?","PMAY official website","Apply PMAY","Apply AHP","Apply AHP2","Online Application for PMAY","Online Application PMAY","Apply online PMAY","Online apply PMAY"],
+	"responses":["Individuals can visit the official website of the scheme to apply online. They need to have a valid Aadhaar Card to apply.Official Website - https://pmaymis.gov.in/default.aspx"]
+ 	} ,
+	{"tag":"PMAY Application offline",
+	"patterns":["Where should we apply for PMAY?","How to apply for PMAY?","Apply PMAY","Offline Apply PMAY","PMAY Offline Application","Apply PMAY offline"],
+	"responses":["Beneficiaries can apply for the scheme offline by filling up a form available through Common Service Centre (CSC). Price of these forms is Rs. 25 + GST."]
+ 	} ,
+	{"tag":"PMAY Beneficiary List ",
+	"patterns":["How to check your name in PMAY Beneficiary List?","Beneficiary List PMAY","PMAY Beneficiary List","PMAY beneficiary list"],
+	"responses":["Step 1: Visit the official website.\nStep 2: Click “Search Beneficiary”.\nStep 3: Enter the Aadhaar number.\nStep 4: Click “Show”."]
+ 	} ,
+	{"tag":"PMAY FAQ1",
+	"patterns":["Is Pradhan Mantri Yojana available to existing home loan borrowers?"],
+	"responses":["Existing home loan borrowers are eligible for this scheme provided they fulfil all the relevant eligibility criteria."]
+ 	} ,
+
+
+	{"tag":"Atal pension yojana Description",
+	 "patterns":["What is Atal pension Yojana?","Atal pension","About Atal pension","Atal pension yojana","Atal pension scheme"],
+	"responses":["Atal Pension Yojana is a pension scheme mainly aimed at the unorganized sector such as maids, gardeners, delivery boys, etc. This scheme replaced the previous Swavalamban Yojana which wasn’t accepted well by the people.The goal of the scheme is to ensure that no Indian citizen has to worry about any illness, accidents or diseases in old age, giving a sense of security. "]
+	},
+	{"tag":"Atal pension yojana Eligibility",
+	 "patterns":["What is the Eligibility Criteria for Atal pension Yojana?","Who are eligible for Atal Pension Yojana","Eligibility for Atal Pension Yojana","Eligibility for APY","Eligibility APY","APY Eligibility"],
+	"responses":["Must be a citizen of India.Must be between the age of 18-40.Should make contributions for a minimum of 20 years.Must have a bank account linked with your Aadhar.Must have a valid mobile number"]
+	},
+	{"tag":"Atal pension yojana Application",
+	 "patterns":["How to apply for Atal pension Yojana?","Apply APY","APY Apply","apply Atal pension yojana","Atal pension yojana apply"],
+	"responses":["1.All nationalized banks provide the scheme.You can visit any of these banks to start your APY account.Fill up the APY application form and submit it to your bank.Provide a valid mobile number, if you haven’t already provided to the bank.Submit a photocopy of your Aadhaar card."]
+	},
+	{"tag":"Atal pension yojana Application Online",
+	 "patterns":["Can I apply for APY online?","Atal pension yojana online application","APY online application"],
+	"responses":["No, currently there are no provisions to apply for APY online. You need to go to your bank and fill out the forms."]
+	},
+	{"tag":"Atal pension yojana required documents",
+	 "patterns":["What are the documents required to apply for the APY Scheme?","Atal pension yojana required documents","required documents to apply for atal pension yojana","apy required documents"],
+	"responses":["To apply for the APY scheme, you need to fill out the form and submit a photocopy of your Aadhar Card. No other documents are required."]
+	},
+	{"tag":"Atal pension yojana last date",
+	 "patterns":["When is the last date to join the Atal Pension Yojana Scheme?","atal pension yojana last date","last date to apply for atal pension yojana","apy last date"],
+	"responses":["The Atal Pension Yojana Scheme does not have a last date to join. Submit your application before June 1st to join the scheme for the coming year. The scheme is renewed on June 1st every year."]
+	},
+	
+	{"tag":"Pradhan mantri suraksha bhima yojana Description",
+         "patterns":["What is pradhan mantri suraksha bhima yojana?","pradhan mantri suraksha bhima yojana","PMSBY"],
+        "responses":["Pradhan Mantri Suraksha Bima Yojana (PMSBY) is a social security scheme that offers one-year accidental death and disability cover, that can be renewed yearly. PMSBY is one of the three social security schemes that was announced in the Government in the 2015 budget. The other two being Atal Pension Yojana (APY) and Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)."]
+        },
+        {"tag":"Pradhan mantri suraksha bhima yojana Eligibility",
+         "patterns":["eligibility for pradhan mantri suraksha bhima yojana?","pradhan mantri suraksha bhima yojana eligibility","PMSBY Eligibility"],
+        "responses":["All individual bank account holders, whether single or joint account status, in the age group 18-70 years, are eligible to join the PMSBY scheme.\nPoints to be noted:\nIn case the individual holds multiple accounts in multiple banks then he will be allowed to join the scheme through one bank account only.\nIn the case of joint account holders, all the holders will be allowed to join the scheme.\nNRI’s can also join the scheme; however, in the event of a claim arising, the beneficiary/ nominee will be paid in Indian currency only."]
+        },
+         {"tag":"Pradhan mantri suraksha bhima yojana Premium amount",
+         "patterns":["Premium amount for pradhan mantri suraksha bhima yojana?","pradhan mantri suraksha bhima yojana premium amount","PMSBY premium amount"],
+        "responses":["The premium amount is Rs.12 per annum per member and will be auto-debited from the account of the holder. The premium is a nominal amount to encourage the weaker sections to participate in the scheme. The amount will be deducted on or before June 1st; if it is deducted after June 1st, then the cover shall commence on the date of auto-debit."]
+        },
+        {"tag":"Pradhan mantri suraksha bhima yojana Coverance",
+         "patterns":["What is covered in pradhan mantri suraksha bhima yojana?","pradhan mantri suraksha bhima yojana covers","PMSBY coverage"],
+        "responses":["The risk cover is Rs. 2 lakh for accidental death and permanent disability and Rs. 1 lakh for permanent partial disability.\nPermanent disability is defined as total and irrecoverable loss of both eyes or loss of use of both or one hand or foot.\nPermanent partial disability is defined as total and irrecoverable loss of an eyesight or loss of use of a hand or foot.\nIt covers accidents, natural calamities, murder."]},
+        {"tag":"Pradhan mantri suraksha bhima yojana enrollment",
+         "patterns":["What is period of enrollment pradhan mantri suraksha bhima yojana?","pradhan mantri suraksha bhima yojana period of enrollment","PMSBY period of enrollment"],
+        "responses":["The period of enrolment is starting from June 1st to May 31st of the subsequent year, i.e a period of one year. The instruction for auto-debit has to be given to the bank by May 31 every year. It is a yearly scheme, and hence the individual must provide consent for auto-debit before May 31 of subsequent years."]
+        },
+        {"tag":"Pradhan mantri suraksha bhima yojana enrollment through sms",
+         "patterns":["How to enroll to pradhan mantri suraksha bhima yojana through sms?","pradhan mantri suraksha bhima yojana period of enrollment","PMSBY period of enrollment"],
+        "responses":["The individual can register by contacting the affiliated bank or an insurance company.The following are the steps to enrol to the scheme through SMS:\nThe individual will receive the activation SMS.\nThe individual must respond to the SMS as ‘PMSBY Y’.\nThe individual will receive the acknowledgement message.\nThe Bank will process the request with the information available in the savings account."]
+        },
+        {"tag":"Pradhan mantri suraksha bhima yojana enrollment through net banking",
+         "patterns":["How to enroll to pradhan mantri suraksha bhima yojana through net banking?","pradhan mantri suraksha bhima yojana period of enrollment","PMSBY period of enrollment"],
+        "responses":["The following are the steps to enrol to the scheme through Net Banking:\nLogin to the internet banking account.\nClick on Insurance.\nIdentify the account that will be used for paying the premium.\nVerify all the details and confirm.\nDownload the acknowledgement and save it for future reference."]
+        },
+        {"tag":"Pradhan mantri suraksha bhima yojana required documents",
+         "patterns":["What are required documents for pradhan mantri suraksha bhima yojana?","pradhan mantri suraksha bhima yojana required documents","PMSBY required documents"],
+        "responses":["The individual can register by contacting the affiliated bank or an insurance company or can download the form from the Government website – https://www.jansuraksha.gov.in/Forms-PMSBY.aspx. The participating banks are offering application to the scheme through SMS or net banking. The individual needs to submit the form and the Aadhar card."]
+        },
+        {"tag":"PMSBY application link",
+         "patterns":["link for pradhan mantri suraksha bhima yojana form?","pradhan mantri suraksha bhima yojana form","PMSBY form"],
+        "responses":["The individual can download the form from the Government website – https://www.jansuraksha.gov.in/Forms-PMSBY.aspx"]
+        },
+        
+        {"tag":"PMSBY procedure for raising a claim",
+         "patterns":["claim for pradhan mantri suraksha bhima yojana form?","pradhan mantri suraksha bhima yojana claiming process","PMSBY claim","how to raise a claim for PMSBY"],
+        "responses":["In the event of an unfortunate incident like an accident, drowning, etc. the same must be reported to the police. In all other cases, the hospital record evidencing the event must be available.In case of death, the claim can be filed by the nominee/ appointee as per the enrolment form or by the legal heirs in case of no nominee. The claim for disability will be credited in the bank account of the individual. In case of death, it will be credited to the bank account of the nominee/legal heir."]
+        },
+        {"tag":"PMSBY termination",
+         "patterns":["how to terminate pradhan mantri suraksha bhima yojana?","pradhan mantri suraksha bhima yojana termination","PMSBY Termination"],
+        "responses":["The Scheme will be terminated in the happening of any of the following events:\nThe individual turns 70.\nClosure of a bank account or insufficiency of balance to keep insurance alive.\nIn case of multiple bank accounts and receipt of the premium is inadvertently received by the insurance company, the insurance cover will be restricted to one account and the premium to be forfeited."]
+        },
+         {"tag":"PMSBY list of banks",
+         "patterns":["list of banks for pradhan mantri suraksha bhima yojana?","pradhan mantri suraksha bhima yojana banks list","PMSBY list of banks"],
+        "responses":["Allahabad Bank\nAxis Bank\nBank of India\nBank of Maharashtra\nBharatiya Mahila Bank\nCanara Bank\nCentral Bank\nCorporation Bank\nDena Bank\nFederal Bank\nHDFC Bank\nICICI Bank\nIDBI Bank\nIndusInd Bank\nKerala Gramin Bank\nKotak Bank\nOriental Bank of Commerce\nPunjab and Sind Bank\nPunjab National Bank\nSouth Indian Bank\nState Bank of Hyderabad\nState Bank of India\nState Bank of Travancore\nSyndicate Bank\nUCO Bank\nUnion Bank of India\nUnited Bank of India\nVijaya Bank"]
+        },
+        {"tag":"pradhan mantri jeevan jyoti bima yojana",
+        "patterns":["what is PMJJBY?","what is pradhan mantri jeevan jyoti bima yojana","jeevan jyoti bima yojana","what is jeevan jyoti bima yojana","pradhan mantri jeevan jyoti bima yojana"],
+        "responses":["Pradhan Mantri Jeevan Jyoti Bima Yojana 2021 is an insurance scheme by central government aiming to increase the adoption of life insurance cover by Indians. Launched along with PM Suraksha Bima Yojana and Atal Pension Yojana, the scheme has also seen a tremendous response with almost 6.958 crore people getting covered (from 9 May 2015 to 30 April 2020)."]
+ 		},
+        {"tag":"Join PMJJBY",
+        "patterns":["how to join PMJJBY","how to join pradhan mantri jeevan jyoti bima yojana","how to join jeevan jyoti bima yojana"],
+        "responses":["STEP 1: The insurance scheme can be joined by presenting the dually filled application forms from official website of PMJJBY.\nSTEP 2: Fill the application form and go to the bank where you have an active saving bank account. Make sure you have the enough balance in the account to pay the premium.\nSTEP 3: Give declaration of good health and a signed consent of joining the scheme and auto-debit of premium amount. The consent document is attached along with the download application form."]
+        },
+        {"tag":"Apply PMJJBY",
+        "patterns":["process to apply PMJJBY","How to apply for PMJJBY","Application process of PMJJBY","Application process of jeevan jyothi bima yojana","how to apply for pradhan mantri jeevan jyoti bima yojana?"],
+        "responses":["STEP 1: Firstly visit the official PM Jeevan Jyoti Bima Yojana Portal or Jan-Dhan Se Jan Suraksha website at https://jansuraksha.gov.in/ \nSTEP 2: At the homepage, click at the “Forms” tab present in the main menu as shown here or directly click https://jansuraksha.gov.in/Forms.aspx\nSTEP 3: Then in the new window, click at the “Pradhan Mantri Jeevan Jyoti Bima Yojana” sub-section under “Forms” section or directly click https://jansuraksha.gov.in/Forms-PMJJBY.aspx\nSTEP 4: In the new window of Forms for Pradhan Mantri Jeevan Jyoti Bima Yojana, click at the “Application Forms” link.\nSTEP 5: This will open the application forms section into various languages where one can easily download PM Jeevan Jyoti Bima Yojana Form PDF in their desired language. Here we are selecting the English language to tell you about the apply format of PMJJBY Scheme which can even be checked using this link https://jansuraksha.gov.in/Files/PMJJBY/English/ClaimForm.pdf\nSTEP 6: Then the PM Jeevan Jyoti Bima Yojana Application Form PDF will appear online as shown below which can be downloaded.\nApplicants who wants to avail Rs. 2 lakh life cover can download this form and submit it at the bank."]
+        },
+        {"tag":"Premium PMJJBY",
+        "patterns":["premium PMJJBY?","what is premium pradhan mantri jeevan jyothi bima yojana","what is premium PMJJBY"],
+        "responses":["The premium of Pradhan Mantri Jeevan Jyoti Bima Yojana can be affordable by people belonging to almost all income groups including EWS and BPL. It is just Rs. 330 per annum which will be auto-debited from the saving account of subscriber in the month of May every year. The insurance cover will commence from 1st June of the same year and will stretch to 31st May of the next year."]
+        },
+        {"tag":"Premium PMJJBY",
+        "patterns":["premium PMJJBY policies?","policies for Premium PMJJBY","policies for pradhan mantri jeevan jyothi bima yojana"],
+        "responses":["Total Premium: Rs. 330/- per annum per member\nAppropriation of Premium:\nInsurance Premium to LIC / insurance company : Rs.289/- per annum per member\nReimbursement of Expenses to BC/Micro/Corporate/Agent : Rs.30/- per annum per member\nReimbursement of Administrative expenses to participating Bank: Rs.11/- per annum per member\nThe period of the insurance would be same as before, i.e. 1st June to 31st May."]
+        },
+        {"tag":"Features PMJJBY",
+        "patterns":["Features of Pradhan Mantri Jeevan Jyoti Bima Yojana","PMJJBY Features","features covered under PMJJBY","Features covered under jeevan jyoti bima yojana"],
+        "responses":["Yearly basis life insurance cover of Rs. 2 Lakh at a premium of just Rs. 330.\nEasy to join, maintain, exit and re-join.\nAvailable for all Indian citizens within age group of 18-50 years.\nbeing offered by LIC of India and other private insurance companies while the participating bank remaining the Master policy holder.\nAuto debit facility for the premium amount, no need to manually deposit the premium every year."]
+        },
+        {"tag":"Termination PMJJBY",
+        "patterns":["Termination of Pradhan Mantri Jeevan Jyoti Bima Yojana","jeevna jyothi beema yojana termination","terminate jeevan jyothi bima yojana","PMJJBM Termination" ],
+        "responses":["The insurance cover will terminate in any of the following events and no benefit will become payable there under.\nUpon attaining the age of 55 years subject to annual renewal up to that date (entry, however, will not be possible beyond the age of 50 years).\nClosure of the saving bank account or the insufficiency of the balance at the time of renewal.\nIn case the applicant is found to be covered under more than one saving bank account, only one will remain active, rest will be terminated and the premium will be forfeited.\nThe subscriber can himself/herself can exit the scheme any time in any particular year and can re-join by paying the full premium from the succeeding year."]
+        },
+        {"tag":"Claim PMJJBY",
+        "patterns":["How to Claim Jeevan Jyoti Bima Yojana Cover Amount","claim jeevan jyothi bhima yojana","receive jeevan jyothi bima","jeevan jyothi bima yojana claiming process"],
+        "responses":["In case of claim the nominees/heirs of the insured person have to contact respective bank branch where the insured person was having bank account. A death certificate and simple claim form is required to submit and the claim amount will be transferred to nominees account. The complete PM Jeevan Jyoti Bima Yojana scheme details can be checked using the direct link here – https://jansuraksha.gov.in/Files/PMJJBY/English/About-PMJJBY.pdf"]
+        }
+]
+}	
+	
+	
+
